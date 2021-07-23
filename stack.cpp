@@ -15,8 +15,7 @@ class Stack {
         if(top-1 == size){
             cout<<"Stack is full";
         } else {
-            top++;
-            arr[top]=n;
+            arr[++top]=n;
         };
     };
     
