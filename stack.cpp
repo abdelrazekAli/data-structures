@@ -3,8 +3,7 @@ using namespace std;
 #define size 10
 class Stack {
     private:
-    int top;
-    int arr[size];
+    int arr[size], top;
     
     public:
     Stack(){
