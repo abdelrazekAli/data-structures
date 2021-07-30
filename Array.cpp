@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void reversArr(int arr[], int length)
+void reverseArr(int arr[], int length)
 {
     int temp, i=0, j=length-1;
     for(i; i<j; i++, j--)
